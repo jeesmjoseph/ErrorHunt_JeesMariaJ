@@ -6,24 +6,25 @@ const path = require ('path');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const nav= [
-    {
-        link:"/books",
-        title:"Books"
-    },
-    {
-        link:"/authors",
-        title:"Authors"
-    },
-    {
-        link:"/addbook",
-        title:"Add Book"
-    },
-    {
-        link:"/addauthor",
-        title:"Add Author"
-    }
-]
+// Part #2 Point 1
+// const nav= [
+//     {
+//         link:"/books",
+//         title:"Books"
+//     },
+//     {
+//         link:"/authors",
+//         title:"Authors"
+//     },
+//     {
+//         link:"/addbook",
+//         title:"Add Book"
+//     },
+//     {
+//         link:"/addauthor",
+//         title:"Add Author"
+//     }
+// ]
 
 const loginRouter = require('./src/routes/loginroute');
 const signupRouter = require('./src/routes/signuproute');
